@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/LevelDone.uss?fileID=7433441132597879392&amp;guid=bff343dd756e7614dae974582495fb8a&amp;type=3#LevelDone" />
+    <ui:VisualElement name="LevelDoneContainer" style="flex-grow: 1; align-items: center; width: auto; height: auto; background-color: rgb(255, 255, 255);">
+        <ui:Label tabindex="-1" text="Level Done" parse-escape-sequences="true" display-tooltip-when-elided="true" class="header" />
+        <ui:Button text="Next" parse-escape-sequences="true" display-tooltip-when-elided="true" name="nextbutton" class="button" style="font-size: 30px;" />
+    </ui:VisualElement>
+</ui:UXML>

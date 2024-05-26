@@ -1,0 +1,23 @@
+.header {
+    align-self: center;
+    align-items: stretch;
+    justify-content: flex-start;
+    font-size: 100px;
+    margin-top: 130px;
+}
+
+.button {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 220px;
+    height: 70px;
+    margin-top: 45px;
+    background-image: url("project://database/Assets/Models/UI/png/Button/Rect/Default.png?fileID=2800000&guid=e1b2f9b117461724497a93deef6688f5&type=3#Default");
+}
+
+.button:hover {
+    scale: 1.1 1.1;
+    background-image: url("project://database/Assets/Models/UI/png/Button/Rect/Hover.png?fileID=2800000&guid=ef9a36c5fbc6177418c3c5d683464dd4&type=3#Hover");
+}
